@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>时间轴</title>
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+		<script type="text/javascript" src="js/jquery-3.3.1.js">
+		</script>
+	</head>
+	<style>
+		.swiper-container {
+			max-width: 1200px;
+		}
+		
+		* {
+			margin: 0px;
+			padding: 0px;
+		}
+		
+		.content-in {
+			border: 1px dashed #ACAAAB;
+			width: 100px;
+		}
+		
+		.content-ins {
+			width: 84px;
+			margin: auto;
+			float: left;
+		}
+		.content-ins2{
+			margin-left: -6px;
+		}
+		.cont{
+			width: 80%;
+			margin: auto;
+		}
+		.cont>h3 {
+			text-align: center;
+			
+		}
+		
+		.cont-border {
+			background: #585858;
+			width: 12px;
+			height: 12px;
+			border-radius: 50%;
+			margin: auto;
+		}
+		
+		.line {
+			height: 110px;
+			width: 2px;
+			margin: auto;
+			background: #9A9A99;
+		}
+		
+		.empty {
+			border: 1px dashed #ACAAAB;
+		}
+		
+		.cirle {
+			width: 80px;
+			height: 80px;
+			border-radius: 50%;
+			border: 2px solid #00CE98;
+			margin: auto;
+		}
+		
+		.cirle-in {
+			background: #00CE98;
+			width: 60px;
+			height: 60px;
+			border-radius: 50%;
+			margin: 10px auto;
+			box-shadow: 2px 6px 6px #818081;
+		}
+		
+		.swiper-slides {
+			overflow: hidden;
+		}
+		
+		.content-ins,
+		.swiper-slide {
+			overflow: hidden;
+		}
+		
+		.content-i{
+			overflow: hidden;
+		}
+		.content-i-in{
+			margin: auto;
+			overflow: hidden;
+		}
+		.content-in{
+			float: left;
+			margin-top: 43%;
+			margin-left: 11%;
+		}
+		.tit{
+			width: 54%;
+			text-align: center;
+			margin: 10px auto;
+			line-height: 26px;
+		}
+		.tit1{
+			width: 54%;
+		}
+		.tit1>p{
+			text-align: center;
+		}
+		.content-i{
+			margin: auto;
+			text-align: center;
+		}
+		
+		.content-line {
+			width: 175px;
+			border: 1px solid #00CE98;
+			transform: rotate(160deg);
+			float: left;
+			margin-top: 35%;
+			margin-left: -6px;
+		}
+		.content-lines{
+			width: 140px;
+			border: 1px solid #00CE98;
+			transform: rotate(20deg);
+			float: left;
+			margin-top: 46%;
+			margin-left: -6px;
+		}
+		.content-line2{
+			margin-top: 47%;
+		}
+		.swiper-slides {
+			padding-top: 9%;
+		}
+		.swiper-slide2{
+			margin-left: -6px;
+		}
+		.angle {
+			width: 100%;
+		}
+		.content-i-in{
+			margin-left: -2px;
+		}
+		@media only screen and (max-width: 650px) {
+			.content-i-in{
+				width: 98%;
+			}
+			.content-line{
+				width: 144px;
+			}
+			.swiper-slides {
+			padding-top: 16%;
+		}
+		.swiper-slide2{
+			margin-left: -14px;
+		}
+		}
+	</style>
+
+	<body>
+		<div class="swiper-container">
+			<div class="swiper-wrapper" style="">
+				<div class="swiper-slides swiper-slide swiper-slide-active">
+					<div class="angle">
+						<div class="cont">
+							<h3>2016</h3>
+						</div>
+
+						<div class="content-i">
+							<div class="content-i-in">
+								<div class="content-in"></div>
+								<div class="content-ins">
+									<div class="cont-border"></div>
+									
+									<div class="line"></div>
+												
+									<div class="cirle">
+										<div class="cirle-in">
+
+										</div>
+									</div>
+									<div class="line">
+
+									</div>
+									<div class="cont-border"></div>
+								</div>
+								<div class="content-line">
+
+								</div>
+							</div>
+
+						</div>
+						
+					</div>
+					<div class="tit">
+							<h4>展会活动主题</h4>
+							<p> 务院批准，世界新能源汽车大会（WNEVC）将于2019年7月1-3日在海南博鳌隆重召开。</p>
+						</div>
+
+				</div>
+				<div class="swiper-slide swiper-slide2 swiper-slide-next" data-swiper-column="0" data-swiper-row="1">
+					<div class="angle">
+						<div class="cont">
+							<h3>2016</h3>
+						</div>
+
+						<div class="content-i">
+							<div class="content-i-in">
+								<div class="content-line content-line2">
+
+								</div>
+								<div class="content-ins content-ins2">
+									<div class="cont-border"></div>
+									<div class="line"></div>
+
+									<div class="cirle">
+										<div class="cirle-in">
+
+										</div>
+									</div>
+									<div class="line">
+
+									</div>
+									<div class="cont-border"></div>
+								</div>
+								<div class="content-lines">
+
+								</div>
+							</div>
+
+						</div>
+						
+					</div>
+					<div class="tit1">
+							<h4>展会活动主题</h4>
+							<p> 务院批准，世界新能源汽车大会（WNEVC）将于2019年7月1-3日在海南博鳌隆重召开。</p>
+						</div>
+				</div>
+				<div class="swiper-slide swiper-slide2" data-swiper-column="1" data-swiper-row="0" style=" margin-right: 30px;">
+					<div class="angle">
+						<div class="cont">
+							<h3>2016</h3>
+						</div>
+
+						<div class="content-i">
+							<div class="content-i-in">
+								<div class="content-line content-line2">
+
+								</div>
+								<div class="content-ins content-ins2">
+									<div class="cont-border"></div>
+									<div class="line"></div>
+
+									<div class="cirle">
+										<div class="cirle-in">
+
+										</div>
+									</div>
+									<div class="line">
+
+									</div>
+									<div class="cont-border"></div>
+								</div>
+								<div class="content-lines">
+
+								</div>
+							</div>
+
+						</div>
+						
+					</div>
+				</div>
+				<div class="swiper-slide" data-swiper-column="1" data-swiper-row="1" style=" margin-right: 30px;">
+					4
+				</div>
+				<div class="swiper-slide" data-swiper-column="1" data-swiper-row="1" style=" width: 700.333px; margin-right: 30px;">
+					5
+				</div>
+				<div class="swiper-slide" data-swiper-column="1" data-swiper-row="1" style=" width: 700.333px; margin-right: 30px;">
+					6
+				</div>
+			</div>
+
+			<!--右-->
+			<div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide" aria-disabled="false"></div>
+			<!--左-->
+			<div class="swiper-button-prev swiper-button-disabled" tabindex="0" role="button" aria-label="Previous slide" aria-disabled="true"></div>
+		</div>
+		<script src="js/swiper.min.js"></script>
+	</body>
+	<!--切换效果-->
+	<script>
+		var x = 0;
+		$(function() {
+			if($(window).width() <= 640) {
+				$(".swiper-container").attr("slidesPerView", 1);
+			} else {
+				$(".swiper-container").attr("slidesPerView", 3);
+			}
+		})
+		//切换部分
+		var swiper = new Swiper('.swiper-container', {
+			slidesPerView: 3,
+			spaceBetween: 0,
+			pagination: {
+				el: '.swiper-pagination',
+				clickable: true,
+			},
+			//点击切换
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev',
+			},
+			breakpoints: {
+				640: {
+					slidesPerView: 1,
+					spaceBetween: 0
+				},
+			}
+		});
+	</script>
+
+</html>

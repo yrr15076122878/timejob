@@ -1,0 +1,173 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.swiper-container {
+	max-width: 1400px;
+}
+
+.conts {
+	overflow: hidden;
+	padding-top: 99px;
+}
+
+.conts>h2 {
+	margin-left: 35%;
+}
+
+.conts-in {
+	overflow: hidden;
+}
+
+.conts-in>a>img {
+	display: block;
+	margin: auto;
+	float: right;
+}
+
+.conts2 {
+	overflow: hidden;
+}
+
+.conts2>h2 {
+	margin-left: 42%;
+}
+
+.conts-in2 {
+	overflow: hidden;
+}
+
+.conts-in2>a>img {
+	display: block;
+	float: left;
+}
+
+.swiper-slide2 {
+	width: 340px !important;
+}
+
+.conts3 {
+	padding-top: 61px;
+	overflow: hidden;
+}
+
+.conts3>h2 {
+	margin-left: 47%;
+}
+
+.conts3-in {
+	overflow: hidden;
+}
+
+.conts3-in>a>img {
+	margin: auto;
+	display: block;
+	float: left;
+}
+
+.conts4 {
+	overflow: hidden;
+	padding-top: 14px;
+}
+
+.conts4>h2 {
+	margin-left: 57%;
+}
+
+.tit {
+	text-align: center;
+	overflow: hidden;
+	height: 100%;
+	width: 70%;
+	margin-left: 9%;
+	line-height: 28px;
+}
+
+.tit>h3 {
+	text-align: center;
+	line-height: 30px;
+}
+
+.tit2 {
+	text-align: center;
+	overflow: hidden;
+	height: 100%;
+	width: 70%;
+	margin-left: 17%;
+	line-height: 28px;
+}
+
+.tit2>h3 {
+	text-align: center;
+	line-height: 30px;
+}
+
+.tit3 {
+	text-align: center;
+	overflow: hidden;
+	height: 100%;
+	width: 70%;
+	margin-left: 22%;
+	line-height: 28px;
+}
+
+.tit3>h3 {
+	text-align: center;
+	line-height: 30px;
+}
+
+.tit4 {
+	text-align: center;
+	overflow: hidden;
+	height: 100%;
+	width: 70%;
+	margin-left: 32%;
+	line-height: 28px;
+}
+
+.tit4>h3 {
+	text-align: center;
+	line-height: 30px;
+}
+
+.swiper-slide {
+	overflow: hidden;
+	width: 340px !important;
+}
+
+
+/*媒体查询*/
+
+@media(max-width: 640px) {
+	.swiper-slides {
+		width: 100% !important;
+	}
+}
+
+
+/*左边按钮*/
+
+.swiper-button-prev,
+.swiper-container-rtl .swiper-button-next {
+	top: 296px;
+	background: url(../images/left.png)no-repeat!important;
+	background-size: 40px !important;
+}
+
+
+/*右边按钮*/
+
+.swiper-button-next,
+.swiper-container-rtl .swiper-button-prev {
+	top: 296px;
+	background: url(../images/left.png)no-repeat !important;
+	transform: rotate(180deg);
+	background: url(images/left.png)no-repeat;
+	background-size: 40px !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+	width: 40px !important;
+}

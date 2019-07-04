@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>时间轴</title>
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/times.css"/>
+		<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+		
+	</head>
+
+	<body>
+		<div class="swiper-container">
+			<div class="swiper-wrapper" style="">
+				<div class="swiper-slides swiper-slide swiper-slide-active" data-swiper-column="0" data-swiper-row="0" style=" margin-right: 30px;">
+					<div class="conts">
+						<h2>2016年</h2>
+						<div class="conts-in">
+							<a href=""><img src="images/1.png" /></a>
+						</div>
+						<div class="tit">
+							<p>
+								<h3>展会活动主题</h3> 务院批准，世界新能源汽车大会（WNEVC）将于2019年7月1-3日在海南博鳌隆重召开。大会着眼于全球汽车产业的转型升级和生态环境的持续改善，通过聚集全球专家智慧和产业精英
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide swiper-slide2 swiper-slide-next" data-swiper-column="0" data-swiper-row="1" style="width: 614.333px; margin-right: 30px;">
+					<div class="conts2">
+						<h2>2016年</h2>
+						<div class="conts-in2">
+							<a href=""><img src="images/2.png" /></a>
+						</div>
+						<div class="tit2">
+							<p>
+								<h3>展会活动主题</h3> 务院批准，世界新能源汽车大会（WNEVC）将于2019年7月1-3日在海南博鳌隆重召开。大会着眼于全球汽车产业的转型升级和生态环境的持续改善，通过聚集全球专家智慧和产业精英
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide swiper-slide2" data-swiper-column="1" data-swiper-row="0" style="width: 614.333px; margin-right: 30px;">
+					<div class="conts3">
+						<h2>2016年</h2>
+						<div class="conts-in3">
+							<a href=""><img src="images/3.png" /></a>
+						</div>
+						<div class="tit3">
+							<p>
+								<h3>展会活动主题</h3> 务院批准，世界新能源汽车大会（WNEVC）将于2019年7月1-3日在海南博鳌隆重召开。大会着眼于全球汽车产业的转型升级和生态环境的持续改善，通过聚集全球专家智慧和产业精英
+							</p>
+						</div>
+
+					</div>
+				</div>
+				<div class="swiper-slide" data-swiper-column="1" data-swiper-row="1" style=" width: 614.333px; margin-right: 30px;">
+					<div class="conts4">
+						<h2>2016年</h2>
+						<div class="conts-in4">
+							<a href=""><img src="images/4.png" /></a>
+						</div>
+						<div class="tit4">
+							<p>
+								<h3>展会活动主题</h3> 务院批准，世界新能源汽车大会（WNEVC）将于2019年7月1-3日在海南博鳌隆重召开。大会着眼于全球汽车产业的转型升级和生态环境的持续改善，通过聚集全球专家智慧和产业精英
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!--右-->
+			<div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide" aria-disabled="false"></div>
+			<!--左-->
+			<div class="swiper-button-prev swiper-button-disabled" tabindex="0" role="button" aria-label="Previous slide" aria-disabled="true"></div>
+		</div>
+		<script src="js/swiper.min.js"></script>
+	</body>
+	<!--切换效果-->
+	<script>
+		var x = 0;
+		$(function() {
+			if($(window).width() <= 640) {
+				$(".swiper-container").attr("slidesPerView", 1);
+			} else {
+				$(".swiper-container").attr("slidesPerView", 3);
+			}
+		})
+		//切换部分
+		var swiper = new Swiper('.swiper-container', {
+			slidesPerView: 4,
+			spaceBetween: 0,
+			pagination: {
+				el: '.swiper-pagination',
+				clickable: true,
+			},
+			//点击切换
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev',
+			},
+			breakpoints: {
+				640: {
+					slidesPerView: 1,
+					spaceBetween: 0
+				},
+			}
+		});
+	</script>
+
+</html>
